@@ -37,6 +37,7 @@
             this.lblAuthInstructions = new System.Windows.Forms.Label();
             this.txtAccessCode = new System.Windows.Forms.TextBox();
             this.btnContinue = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtClientID
@@ -123,11 +124,22 @@
             this.btnContinue.Visible = false;
             this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(368, 250);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 285);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnContinue);
             this.Controls.Add(this.txtAccessCode);
             this.Controls.Add(this.lblAuthInstructions);
@@ -155,6 +167,7 @@
         private System.Windows.Forms.Label lblAuthInstructions;
         private System.Windows.Forms.TextBox txtAccessCode;
         private System.Windows.Forms.Button btnContinue;
+        private System.Windows.Forms.Button button1;
     }
 }
 

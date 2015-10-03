@@ -91,18 +91,7 @@ namespace DotNetGoogleSheets
             OAuthUtil.GetAccessToken(parameters);
             return parameters;
 
-            //////////////////////////////////////////////////////////////////////////////
-            //// STEP 5: Make an OAuth authorized request to Google
-            //////////////////////////////////////////////////////////////////////////////
-
-            //// Initialize the variables needed to make the request
-            //GOAuth2RequestFactory requestFactory =
-            //    new GOAuth2RequestFactory(null, "MySpreadsheetIntegration-v1", parameters);
-            //SpreadsheetsService service = new SpreadsheetsService("MySpreadsheetIntegration-v1");
-            //service.RequestFactory = requestFactory;
-
-            //// Make the request to Google
-            //// See other portions of this guide for code to put here...
+            
         }
     }
 }
