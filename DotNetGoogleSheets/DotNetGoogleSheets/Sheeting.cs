@@ -1,4 +1,4 @@
-﻿using Google.GData.Client;
+﻿ï»¿using Google.GData.Client;
 using Google.GData.Spreadsheets;
 using System;
 using System.Collections.Generic;
@@ -18,7 +18,7 @@ namespace DotNetGoogleSheets
         {
             ////////////////////////////////////////////////////////////////////////////
             // STEP 1: Configure how to perform OAuth 2.0
-            ////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////
 
             // TODO: Update the following information with that obtained from
             // https://code.google.com/apis/console. After registering
